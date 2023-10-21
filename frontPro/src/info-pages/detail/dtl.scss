@@ -1,0 +1,94 @@
+.endTime-wrap{
+	position:absolute;height:156px;
+	width:100%;
+	top:331px;
+	.endTimeBox{
+		
+		height:100%;
+		width:156px;
+		margin-left: 102px;
+		background-color: rgba(255,255,255,0.8);
+		padding-top: 48px;
+	}
+}
+.qrcodeBoxWrap{
+	width:100%;
+	.qrcodeBox{
+		margin: auto;
+	}
+}
+.collapse-container {
+  position: relative;
+  width: 100%;
+  .collapse-item {position: relative;width: 100%;border-radius: 15rpx;
+	padding:20rpx;
+  }
+  .item-content{ transition: color 0.3s ease;}
+}
+
+.list-container {
+  position: relative;
+  width: 100%;
+
+  .list-item {
+    position: relative;
+    width: 100%;
+
+    & + .list-item {
+      margin-top: 30rpx;
+    }
+
+    .list-content {
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      line-height: 1;
+
+      .icon {
+        width: 50rpx;
+        height: 50rpx;
+        border-radius: 50%;
+        font-size: 38rpx;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .text {
+        margin-left: 20rpx;
+      }
+    }
+  }
+}
+
+.popup-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+
+  &.center {
+    padding: 30rpx;
+    width: calc(100vw - 200rpx);
+    height: 300rpx;
+  }
+
+}
+.input-container {
+  position: relative;
+  width: 100%;
+
+  .input-item {
+    position: relative;
+    width: 100%;
+
+    & + .input-item {
+      margin-top: 30rpx;
+    }
+  }
+}
+.sub-wrap{
+	padding: 0 10rpx;
+	padding-bottom: 30rpx;
+}
+.paylogo{width:12%;margin: auto;}

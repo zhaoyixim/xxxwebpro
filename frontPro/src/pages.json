@@ -1,0 +1,152 @@
+{
+  "pages": [
+		{
+		  "path": "pages/index/index",
+		  "style": {
+			"navigationBarTitleText": "pengk",
+			"mp-alipay": {
+			  "defaultTitle": ""
+			}
+		  }
+		}
+		
+    ],
+  "subPackages": [	 
+    {
+      "root": "info-pages",
+      "pages": [
+		  {
+		    "path": "about/edit",
+		    "style": {
+		      "navigationBarTitleText": "编辑"
+		    }
+		  },
+        {
+          "path": "about/record",
+          "style": {
+            "navigationBarTitleText": "游戏记录"
+          }
+        },
+		{	
+			"path" : "detail/index",
+			"style":{
+				"navigationBarTitleText": "列表",
+				"enablePullDownRefresh": false
+				}							
+		},
+		{
+			"path" : "detail/dtl",
+			"style":{
+                    "navigationBarTitleText": "详细",
+                    "enablePullDownRefresh": false
+                }
+        },
+		{
+			"path" : "publish/list",
+			"style":{
+		            "navigationBarTitleText": "游戏发布",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "publish/index",
+			"style":{
+		            "navigationBarTitleText": "游戏发布",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		
+		{
+			"path" : "publish/pub",
+			"style":{
+		            "navigationBarTitleText": "游戏发布",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "merchant/index",
+			"style":{
+		            "navigationBarTitleText": "商户",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "kefu/index",
+			"style":{
+		            "navigationBarTitleText": "客服",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "cooperate/index",
+			"style":{
+		            "navigationBarTitleText": "合作",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "cooperate/agreement",
+			"style":{
+		            "navigationBarTitleText": "合作协议",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "logout/index",
+			"style":{
+		            "navigationBarTitleText": "退出",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "login/index",
+			"style":{
+		            "navigationBarTitleText": "登录",
+		            "enablePullDownRefresh": false
+		        }
+		},
+		{
+			"path" : "wallet/index",
+			"style":{
+		            "navigationBarTitleText": "钱包管理",
+		            "enablePullDownRefresh": false
+		        }
+		}		,
+		
+		{
+			"path" : "wallet/withdrawlist",
+			"style":{
+		            "navigationBarTitleText": "提现记录",
+		            "enablePullDownRefresh": false
+		        }
+		}
+		
+		
+		
+		]
+    }   
+    
+  ],
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": ["info-pages"]
+    }
+  },
+  "globalStyle": {
+    "navigationStyle": "custom",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "pengk游戏",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "mp-alipay": {
+      "transparentTitle": "always",
+      "titlePenetrate": "YES",
+      "defaultTitle": "",
+      "titleBarColor": "#FFFFFF",
+      "backgroundColor": "#FFFFFF",
+      "frontColor": "#000000",
+      "allowsBounceVertical": "NO"
+    }
+  }
+}
