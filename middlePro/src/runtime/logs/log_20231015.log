@@ -1,0 +1,52 @@
+{"level":"DEBUG","ts":"2023-10-15T10:48:05.904+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-15T10:48:05.909+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-15T10:48:05.909+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-15T10:48:05.910+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-10-15T14:24:45.259+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-15T14:25:04.203+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-15T14:25:04.206+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-15T14:25:04.207+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-15T14:25:04.207+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"ERROR","ts":"2023-10-15T14:25:04.209+0800","caller":"telegram/telegram.go:27","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:25:04.209+0800","caller":"telegram/siglebot.go:33","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:26:09.010+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:27:09.017+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"DEBUG","ts":"2023-10-15T14:27:46.595+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-15T14:27:46.596+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-15T14:27:46.597+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-15T14:27:46.597+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"ERROR","ts":"2023-10-15T14:27:46.599+0800","caller":"telegram/telegram.go:27","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:27:46.600+0800","caller":"telegram/siglebot.go:33","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:28:31.009+0800","caller":"service/task_service.go:75","msg":"Get \"https://apilist.tronscanapi.com/api/transfer/trc20?address=asdfasdfasdfasdf&db_version=1&direction=2&end_timestamp=1697351306006&limit=50&reverse=true&sort=-timestamp&start=0&start_timestamp=1697264906006&trc20Id=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:28:51.017+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"DEBUG","ts":"2023-10-15T14:29:43.375+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-15T14:29:43.377+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-15T14:29:43.377+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-15T14:29:43.378+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"ERROR","ts":"2023-10-15T14:29:43.379+0800","caller":"telegram/telegram.go:27","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:29:43.379+0800","caller":"telegram/siglebot.go:33","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:30:48.014+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:31:48.011+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:32:48.021+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:33:03.011+0800","caller":"service/task_service.go:75","msg":"Get \"https://apilist.tronscanapi.com/api/transfer/trc20?address=TUe53VJrJqp9fWgRTGaPUtwanw1ZfnM2qM&db_version=1&direction=2&end_timestamp=1697351578011&limit=50&reverse=true&sort=-timestamp&start=0&start_timestamp=1697265178011&trc20Id=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:33:48.015+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"DEBUG","ts":"2023-10-15T14:34:38.492+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-15T14:34:38.493+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-15T14:34:38.493+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-15T14:34:38.494+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"ERROR","ts":"2023-10-15T14:34:38.495+0800","caller":"telegram/telegram.go:27","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:34:38.495+0800","caller":"telegram/siglebot.go:33","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T14:35:43.009+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:36:43.022+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:37:43.013+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:38:43.013+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T14:39:43.015+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"DEBUG","ts":"2023-10-15T19:49:53.480+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-15T19:49:58.095+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-15T19:49:58.095+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-15T19:49:58.096+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"ERROR","ts":"2023-10-15T19:49:58.099+0800","caller":"telegram/telegram.go:32","msg":"telebot: unexpected end of JSON input"}
+{"level":"ERROR","ts":"2023-10-15T19:51:03.020+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T19:52:03.013+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T19:53:03.009+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"level":"ERROR","ts":"2023-10-15T19:54:03.020+0800","caller":"task/usdt_rate_job.go:43","msg":"usdt rate get err:Get \"https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart?convertId=2787&id=825&range=1H\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}

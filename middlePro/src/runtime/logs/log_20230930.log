@@ -1,0 +1,41 @@
+{"level":"DEBUG","ts":"2023-09-30T14:07:51.832+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T14:09:21.679+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T14:09:21.682+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T14:09:21.683+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T14:09:21.683+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T16:03:13.413+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T16:03:13.414+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T16:03:13.415+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T16:03:13.415+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T17:40:16.921+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T17:40:16.923+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T17:40:16.925+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T17:40:16.925+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T18:07:38.416+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T18:07:38.419+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T18:07:38.420+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T18:07:38.420+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T18:09:39.629+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T18:09:39.632+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T18:09:39.633+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T18:09:39.633+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T18:42:34.262+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T18:42:34.263+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T18:42:34.264+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T18:42:34.264+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T18:44:03.410+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T18:44:03.412+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T18:44:03.413+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T18:44:03.413+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T18:45:38.364+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T18:45:38.366+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T18:45:38.367+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T18:45:38.367+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T18:47:52.722+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T18:47:52.724+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T18:47:52.725+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T18:47:52.725+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-09-30T18:48:33.213+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-09-30T18:48:33.215+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-09-30T18:48:33.215+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-09-30T18:48:33.215+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}

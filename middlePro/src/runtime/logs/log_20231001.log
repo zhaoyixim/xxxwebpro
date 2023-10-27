@@ -1,0 +1,9 @@
+{"level":"DEBUG","ts":"2023-10-01T10:08:46.706+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-01T10:09:26.844+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-01T10:09:26.846+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-01T10:09:26.848+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-01T10:09:26.848+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
+{"level":"DEBUG","ts":"2023-10-01T16:15:14.751+0800","caller":"dao/mdb.go:46","msg":"[store_db] mysql connDB success"}
+{"level":"DEBUG","ts":"2023-10-01T16:15:14.797+0800","caller":"dao/rdb.go:39","msg":"[store_redis] redis connRdb success,suc=%sPONG"}
+{"level":"INFO","ts":"2023-10-01T16:15:14.798+0800","caller":"log/log.go:162","msg":"Starting processing"}
+{"level":"INFO","ts":"2023-10-01T16:15:14.798+0800","caller":"log/log.go:162","msg":"Send signal TERM or INT to terminate the process"}
