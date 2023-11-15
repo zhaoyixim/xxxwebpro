@@ -3,9 +3,9 @@ package handle
 import (
 	"context"
 
-	"github.com/assimon/luuu/model/data"
-	"github.com/assimon/luuu/model/mdb"
 	"github.com/hibiken/asynq"
+	"github.com/pengk/summer/model/data"
+	"github.com/pengk/summer/model/mdb"
 )
 
 const QueueOrderExpiration = "order:expiration"

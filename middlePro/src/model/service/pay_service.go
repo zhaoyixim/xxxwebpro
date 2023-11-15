@@ -3,10 +3,10 @@ package service
 import (
 	"errors"
 
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/model/data"
-	"github.com/assimon/luuu/model/mdb"
-	"github.com/assimon/luuu/model/response"
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/model/data"
+	"github.com/pengk/summer/model/mdb"
+	"github.com/pengk/summer/model/response"
 )
 
 // GetCheckoutCounterByTradeId 获取收银台详情，通过订单

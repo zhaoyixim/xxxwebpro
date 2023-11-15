@@ -1,13 +1,13 @@
 package bootstrap
 
 import (
-	"github.com/assimon/luuu/command"
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/model/dao"
-	"github.com/assimon/luuu/mq"
-	"github.com/assimon/luuu/task"
-	"github.com/assimon/luuu/telegram"
-	"github.com/assimon/luuu/util/log"
+	"github.com/pengk/summer/command"
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/model/dao"
+	"github.com/pengk/summer/mq"
+	"github.com/pengk/summer/task"
+	"github.com/pengk/summer/telegram"
+	"github.com/pengk/summer/util/log"
 )
 
 // Start 服务启动

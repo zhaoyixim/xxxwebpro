@@ -3,9 +3,9 @@ package mq
 import (
 	"fmt"
 
-	"github.com/assimon/luuu/mq/handle"
-	"github.com/assimon/luuu/util/log"
 	"github.com/hibiken/asynq"
+	"github.com/pengk/summer/mq/handle"
+	"github.com/pengk/summer/util/log"
 	"github.com/spf13/viper"
 )
 

@@ -1,4 +1,4 @@
-module github.com/assimon/luuu
+module github.com/pengk/summer
 
 go 1.16
 

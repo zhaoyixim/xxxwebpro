@@ -3,9 +3,9 @@ package http
 import (
 	"net/http"
 
-	"github.com/assimon/luuu/util/constant"
-	"github.com/assimon/luuu/util/page"
 	"github.com/labstack/echo/v4"
+	"github.com/pengk/summer/util/constant"
+	"github.com/pengk/summer/util/page"
 )
 
 type Resp struct{}

@@ -9,7 +9,7 @@ const (
 )
 
 type Orders struct {
-	TradeId            string  `gorm:"column:trade_id" json:"trade_id"`                         //  epusdt订单号
+	TradeId            string  `gorm:"column:trade_id" json:"trade_id"`                         //  pengk订单号
 	OrderId            string  `gorm:"column:order_id" json:"order_id"`                         //  客户交易id
 	BlockTransactionId string  `gorm:"column:block_transaction_id" json:"block_transaction_id"` // 区块id
 	Amount             float64 `gorm:"column:amount" json:"amount"`                             //  订单金额，保留4位小数

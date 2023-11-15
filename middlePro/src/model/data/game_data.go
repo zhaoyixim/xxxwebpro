@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/assimon/luuu/model/dao"
-	"github.com/assimon/luuu/model/mdb"
-	"github.com/assimon/luuu/util/page"
+	"github.com/pengk/summer/model/dao"
+	"github.com/pengk/summer/model/mdb"
+	"github.com/pengk/summer/util/page"
 	"gorm.io/gorm"
 )
 

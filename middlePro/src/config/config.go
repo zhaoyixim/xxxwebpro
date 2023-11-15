@@ -2,10 +2,11 @@ package config
 
 import (
 	"fmt"
-	"github.com/spf13/viper"
 	"net/url"
 	"os"
 	"time"
+
+	"github.com/spf13/viper"
 )
 
 var (
@@ -61,7 +62,7 @@ func GetAppVersion() string {
 func GetAppName() string {
 	appName := viper.GetString("app_name")
 	if appName == "" {
-		return "epusdt"
+		return "pengk"
 	}
 	return appName
 }

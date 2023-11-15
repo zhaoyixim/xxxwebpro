@@ -1,15 +1,16 @@
 package dao
 
 import (
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/util/log"
+	"time"
+
 	"github.com/gookit/color"
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/util/log"
 	"github.com/spf13/viper"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/schema"
-	"time"
 )
 
 var Mdb *gorm.DB

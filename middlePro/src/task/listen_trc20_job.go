@@ -3,9 +3,9 @@ package task
 import (
 	"sync"
 
-	"github.com/assimon/luuu/model/data"
-	"github.com/assimon/luuu/model/service"
-	"github.com/assimon/luuu/util/log"
+	"github.com/pengk/summer/model/data"
+	"github.com/pengk/summer/model/service"
+	"github.com/pengk/summer/util/log"
 )
 
 type ListenTrc20Job struct {

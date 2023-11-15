@@ -1,12 +1,13 @@
 package task
 
 import (
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/util/http_client"
-	"github.com/assimon/luuu/util/json"
-	"github.com/assimon/luuu/util/log"
-	"github.com/assimon/luuu/util/math"
 	"time"
+
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/util/http_client"
+	"github.com/pengk/summer/util/json"
+	"github.com/pengk/summer/util/log"
+	"github.com/pengk/summer/util/math"
 )
 
 const UsdtRateApiUri = "https://api.coinmarketcap.com/data-api/v3/cryptocurrency/detail/chart"

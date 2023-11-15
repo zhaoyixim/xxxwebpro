@@ -3,8 +3,8 @@ package data
 import (
 	"fmt"
 
-	"github.com/assimon/luuu/model/dao"
-	"github.com/assimon/luuu/model/mdb"
+	"github.com/pengk/summer/model/dao"
+	"github.com/pengk/summer/model/mdb"
 )
 
 func GetAllSwipers() ([]mdb.GameSwiper, error) {

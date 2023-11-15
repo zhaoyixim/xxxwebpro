@@ -1,6 +1,6 @@
 package comm
 
-import "github.com/assimon/luuu/controller"
+import "github.com/pengk/summer/controller"
 
 var Ctrl = &BaseCommController{}
 

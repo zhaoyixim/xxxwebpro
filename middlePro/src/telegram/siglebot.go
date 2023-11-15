@@ -6,10 +6,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/model/data"
-	"github.com/assimon/luuu/model/mdb"
-	"github.com/assimon/luuu/util/log"
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/model/data"
+	"github.com/pengk/summer/model/mdb"
+	"github.com/pengk/summer/util/log"
 	tb "gopkg.in/telebot.v3"
 )
 

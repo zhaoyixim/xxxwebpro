@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/assimon/luuu/model/dao"
-	"github.com/assimon/luuu/model/mdb"
+	"github.com/pengk/summer/model/dao"
+	"github.com/pengk/summer/model/mdb"
 	"gorm.io/gorm"
 
-	"github.com/assimon/luuu/model/request"
 	"github.com/go-redis/redis/v8"
+	"github.com/pengk/summer/model/request"
 )
 
 var (
@@ -19,7 +19,7 @@ var (
 )
 
 type ResponseOrderItems struct {
-	Corders []mdb.Orders      `json:"corders"` //  epusdt订单号
+	Corders []mdb.Orders      `json:"corders"` //  pengk订单号
 	Members []mdb.MemberModel `json:"members"`
 }
 

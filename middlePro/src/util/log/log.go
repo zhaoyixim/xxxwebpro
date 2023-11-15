@@ -2,12 +2,13 @@ package log
 
 import (
 	"fmt"
-	"github.com/assimon/luuu/config"
+	"time"
+
 	"github.com/natefinch/lumberjack"
+	"github.com/pengk/summer/config"
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
-	"time"
 )
 
 var Sugar *zap.SugaredLogger

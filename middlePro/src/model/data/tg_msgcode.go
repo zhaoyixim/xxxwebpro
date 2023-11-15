@@ -3,9 +3,9 @@ package data
 import (
 	"strconv"
 
-	"github.com/assimon/luuu/model/dao"
-	"github.com/assimon/luuu/model/mdb"
 	"github.com/golang-module/carbon/v2"
+	"github.com/pengk/summer/model/dao"
+	"github.com/pengk/summer/model/mdb"
 )
 
 // 生成MSGCODE信息

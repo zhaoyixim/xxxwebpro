@@ -1,11 +1,11 @@
 package comm
 
 import (
-	"github.com/assimon/luuu/model/data"
-	"github.com/assimon/luuu/model/request"
-	"github.com/assimon/luuu/model/response"
-	"github.com/assimon/luuu/model/service"
-	"github.com/assimon/luuu/util/constant"
+	"github.com/pengk/summer/model/data"
+	"github.com/pengk/summer/model/request"
+	"github.com/pengk/summer/model/response"
+	"github.com/pengk/summer/model/service"
+	"github.com/pengk/summer/util/constant"
 
 	"github.com/labstack/echo/v4"
 )

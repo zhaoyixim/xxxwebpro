@@ -1,9 +1,9 @@
 package data
 
 import (
-	"github.com/assimon/luuu/model/dao"
-	"github.com/assimon/luuu/model/mdb"
-	"github.com/assimon/luuu/util/constant"
+	"github.com/pengk/summer/model/dao"
+	"github.com/pengk/summer/model/mdb"
+	"github.com/pengk/summer/util/constant"
 )
 
 // AddWalletAddress 创建钱包

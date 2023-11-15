@@ -5,10 +5,10 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/model/response"
-	"github.com/assimon/luuu/model/service"
 	"github.com/labstack/echo/v4"
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/model/response"
+	"github.com/pengk/summer/model/service"
 )
 
 // 新收银台

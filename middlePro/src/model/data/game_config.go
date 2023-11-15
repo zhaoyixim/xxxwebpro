@@ -1,9 +1,9 @@
 package data
 
 import (
-	"github.com/assimon/luuu/model/dao"
-	"github.com/assimon/luuu/model/mdb"
-	"github.com/assimon/luuu/util/page"
+	"github.com/pengk/summer/model/dao"
+	"github.com/pengk/summer/model/mdb"
+	"github.com/pengk/summer/util/page"
 )
 
 // INSERT INTO `grabs`.`sys_setting` (`id`, `cname`, `ckey`, `cvalue`, `mech_id`, `create_at`, `sta`, `desp`) VALUES (1, '提现配置项', 'withdrawRate', '20', 0, NULL, '1', '数值是按照提现的百分比扣除');

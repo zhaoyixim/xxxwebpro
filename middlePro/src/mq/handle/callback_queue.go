@@ -4,15 +4,15 @@ import (
 	"context"
 	"errors"
 
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/model/data"
-	"github.com/assimon/luuu/model/mdb"
-	"github.com/assimon/luuu/model/response"
-	"github.com/assimon/luuu/util/http_client"
-	"github.com/assimon/luuu/util/json"
-	"github.com/assimon/luuu/util/log"
-	"github.com/assimon/luuu/util/sign"
 	"github.com/hibiken/asynq"
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/model/data"
+	"github.com/pengk/summer/model/mdb"
+	"github.com/pengk/summer/model/response"
+	"github.com/pengk/summer/util/http_client"
+	"github.com/pengk/summer/util/json"
+	"github.com/pengk/summer/util/log"
+	"github.com/pengk/summer/util/sign"
 )
 
 const QueueOrderCallback = "order:callback"
@@ -54,7 +54,7 @@ func OrderCallbackHandle(ctx context.Context, t *asynq.Task) error {
 		return err
 	}
 	orderResp.Signature = signature
-	resp, err := client.R().SetHeader("powered-by", "Epusdt(https://github.com/assimon/epusdt)").SetBody(orderResp).Post(order.NotifyUrl)
+	resp, err := client.R().SetHeader("powered-by", "pengk(https://github.com/assimon/pengk)").SetBody(orderResp).Post(order.NotifyUrl)
 	if err != nil {
 		return err
 	}

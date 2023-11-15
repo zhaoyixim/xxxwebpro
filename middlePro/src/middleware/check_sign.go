@@ -4,11 +4,11 @@ import (
 	"bytes"
 	"io/ioutil"
 
-	"github.com/assimon/luuu/config"
-	"github.com/assimon/luuu/util/constant"
-	"github.com/assimon/luuu/util/json"
-	"github.com/assimon/luuu/util/sign"
 	"github.com/labstack/echo/v4"
+	"github.com/pengk/summer/config"
+	"github.com/pengk/summer/util/constant"
+	"github.com/pengk/summer/util/json"
+	"github.com/pengk/summer/util/sign"
 )
 
 func CheckApiSign() echo.MiddlewareFunc {
